@@ -171,3 +171,85 @@ The objective of this project is to address these challenges by using **explorat
 
   <img width="729" height="294" alt="payment nd  tenure" src="https://github.com/user-attachments/assets/0f6de74d-df77-4e01-b064-94da51ee8eb8" />
 
+
+### 4. Numerical Analysis Insights
+
+#### KDE Plot – Monthly Charges
+
+- The distribution of **Monthly Charges is bimodal**, with two major peaks:
+  - Around **$20–25**, representing the **low-paying customer group**
+  - Around **$70–90**, representing the **high-paying customer group**
+
+- **Mean Monthly Charges:** **$64.8**  
+- **Median Monthly Charges:** **$70.3**, indicating a **slight right skew** in the distribution
+
+- **75% of customers have Monthly Charges below $90.8**, showing that the majority fall under mid-range pricing plans.
+
+- A small segment of customers pays **up to $118.8**, likely associated with **premium plans or multiple subscribed services**.
+
+- This distribution helps clearly identify **low-, mid-, and high-spending customer segments**.
+
+<img width="798" height="562" alt="kde_monthly_charges" src="https://github.com/user-attachments/assets/d849e20e-a1e0-46df-9108-1f5f3d7f505f" />
+
+---
+
+#### Scatter Plot – Monthly Charges vs Total Charges
+
+- There is a **strong positive correlation** between **Monthly Charges** and **Total Charges**, indicating that customers paying more monthly generally accumulate higher total revenue.
+
+- The **triangular pattern** observed in the scatter plot highlights that **Total Charges are dependent on customer tenure**:
+  - Newer customers with high monthly charges still have lower total charges due to shorter service duration.
+
+- This confirms that **revenue grows with customer tenure**, reinforcing the importance of long-term retention.
+
+<img width="590" height="478" alt="total charges vs monthly charges" src="https://github.com/user-attachments/assets/b5c5a267-ec1a-4f4a-80de-a40eda1c9bf3" />
+
+
+---
+
+#### KDE Plot – Monthly Charges by Churn
+
+- **Churn probability increases with higher Monthly Charges**, indicating strong **price sensitivity** among customers.
+
+- **Non-churned customers** are more densely clustered around **lower monthly charge ranges**, suggesting better retention at affordable pricing levels.
+
+- **Business Note:**  
+  High-paying customers may benefit from **targeted loyalty offers or pricing flexibility** to reduce churn risk.
+
+<img width="578" height="464" alt="monthly charges by churn" src="https://github.com/user-attachments/assets/0a422326-bc64-4785-b526-34945fb21620" />
+
+#### KDE Plot – Total Charges by Churn
+
+- Customers with **low Total Charges (0–2000)** exhibit the **highest churn rates**, indicating that churn is most prevalent during the **early stages of the customer lifecycle**.
+
+- Customers with **higher Total Charges** are more likely to be **long-tenure customers**, showing **lower churn probability**.
+
+- This emphasizes the importance of **early customer engagement and retention efforts** to prevent churn before long-term value is realized.
+
+  <img width="584" height="466" alt="total charges by churn" src="https://github.com/user-attachments/assets/bde76496-5a01-4482-b89e-465c4b414c38" />
+
+
+---
+
+#### Correlation Bar Plot
+
+- **Top Positive Correlation with Churn:**
+  - **Month-to-month contracts**
+  - **High Monthly Charges**
+  - **Electronic check payment method**
+
+  These factors are strongly associated with **increased churn risk**.
+
+- **Top Negative Correlation with Churn:**
+  - **Longer tenure**
+  - **Tech support availability**
+  - **Online security services**
+  - **Two-year contracts**
+
+  These features are associated with **lower churn rates** and improved retention.
+
+- Overall, the correlation analysis suggests that **service engagement** and **longer-term commitments** play a crucial role in **reducing customer churn**.
+
+  <img width="1072" height="539" alt="correlation" src="https://github.com/user-attachments/assets/267a1510-59f9-4c19-917b-91c8e4d1cf00" />
+
+
