@@ -52,7 +52,10 @@ The objective of this project is to address these challenges by using **explorat
 - Created dummy variables for categorical features using `pd.get_dummies()`
 - Ensured consistent data types and removed null values to maintain data quality
 
-*(Visual to attach: Dataset structure / info summary screenshot)*
+<img width="311" height="386" alt="info_image" src="https://github.com/user-attachments/assets/6b367a93-cf92-4547-a344-801955abe03b" />
+<img width="498" height="405" alt="churn_distribution" src="https://github.com/user-attachments/assets/58a582ab-3c70-4de4-b77b-09443e08ad14" />
+
+
 
 ---
 
